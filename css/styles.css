@@ -207,6 +207,15 @@ body {
   padding-left: 15px;
 }
 
+/* VECTOR-LIST*/
+.vector-list {
+  display: block;
+  list-style: none;
+  margin-top: 94px;
+  margin-bottom: 30px;
+  padding: 0;
+}
+
 /* FEACHERS */
 .feachers {
   margin-top: 0;
@@ -383,6 +392,48 @@ body {
   margin-right: auto;
   padding-right: 15px;
   padding-left: 15px;
+}
+
+/* CUSTOMERS */
+
+.customers {
+  padding-top: 94px;
+  padding-bottom: 94px;
+  background-color: var(--secondary-white-color);
+  text-align: center;
+}
+
+.container-customers {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.customers-title {
+  font-family: Roboto;
+  font-style: 400;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--title-text-color);
+  margin-top: 0;
+  margin-bottom: 50px;
+}
+
+.customers-list {
+  display: flex;
+  list-style: none;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 0;
+}
+
+.customers-item:not(:last-child) {
+  margin-right: 30px;
 }
 
 /* FOOTER */
