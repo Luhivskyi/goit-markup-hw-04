@@ -438,7 +438,9 @@ color:var(--title-text-color);
 }
 
 .customers-link{
-display: block;
+display: flex;
+    justify-content: center;
+    align-items: center;
 width: 170px;
 height: 90px;
 
@@ -446,21 +448,26 @@ border: 1px solid #AFB1B8;
 box-sizing: border-box;
 border-radius: 4px;
 }
+.customers-item:hover,
+.customers-item:focus{
+  color: var(--accent-color);
+}
 
 .customers-list{
   
   margin: 0;
   padding: 0;
   list-style: none;
-  
-display: flex;
-justify-content: center;
-align-items: center;
+  display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
+
 .customers-item:not(:last-child) {
   margin-right: 30px;
 }
+
 
 
 /* FOOTER */
