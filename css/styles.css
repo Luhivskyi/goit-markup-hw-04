@@ -14,7 +14,7 @@ html {
 
 /* Стилі для index.html*/
 
-body {
+body {ust
   background-color: var(--primary-white-color);
   color: var(--title-text-color);
   font-family: Roboto, sans-serif;
@@ -208,13 +208,15 @@ body {
 }
 
 /* VECTOR-LIST*/
-.vector-list {
-  display: block;
-  list-style: none;
-  margin-top: 94px;
-  margin-bottom: 30px;
-  padding: 0;
+
+.vectors{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ background-color: var(--secondary-white-color);
+ margin-bottom: 30px;
 }
+  
 
 /* FEACHERS */
 .feachers {
@@ -385,7 +387,14 @@ body {
 .team-item:not(:last-child) {
   margin-right: 30px;
 }
-
+.team-item {
+  width: 270px;
+  height: 428px;
+  box-sizing: border-box;
+  border-radius: 0px 0px 4px 4px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+}
 .container-team {
   width: 1200px;
   margin-left: auto;
@@ -399,7 +408,7 @@ body {
 .customers {
   padding-top: 94px;
   padding-bottom: 94px;
-  background-color: var(--secondary-white-color);
+  background-color: var(--primary-white-color);
   text-align: center;
 }
 
@@ -434,6 +443,18 @@ body {
 
 .customers-item:not(:last-child) {
   margin-right: 30px;
+}
+
+.customers-link:hover,
+.customers-link:focus{
+  color: var(--accent-color);
+}
+.customers-item{
+width: 170px;
+height: 90px;
+border: 1px solid #AFB1B8;
+box-sizing: border-box;
+border-radius: 4px;
 }
 
 /* FOOTER */
