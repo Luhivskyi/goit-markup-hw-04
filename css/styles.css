@@ -490,9 +490,13 @@ border-radius: 4px;
   margin-right: 10px;
 }
 
+
 .social:hover svg,
 .social:focus svg{
   fill: var(--accent-color);
+}
+.social.current {
+  color: var(--accent-color);
 }
 
 .media-picture {
@@ -509,10 +513,10 @@ border-radius: 50%;
 }
 
 /* FOOTER MEDIA-LIST*/
+
 .spysok{
-  display: flex;
-  justify-content: center;
-align-items: center;
+  margin-left: 70px;
+  align-self: baseline;
 }
 
 .footer-title{
@@ -556,12 +560,19 @@ align-items: center;
 width: 44px;
 height: 44px;
 border-radius: 50%;
+background: rgba(255, 255, 255, 0.1);
 
 }
 
 .footer-media-picture{
   fill: var(--primary-white-color);
 
+}
+
+.kolonky{
+  display: flex;
+  justify-content:;
+  align-items:center;
 }
 
 
