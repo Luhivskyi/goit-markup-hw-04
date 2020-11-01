@@ -373,6 +373,8 @@ body {ust
   font-size: 16px;
   line-height: 1.2;
   letter-spacing: 0.03em;
+  margin-top: 30px;
+  margin-bottom: 10px;
 }
 
 .name-text {
@@ -383,6 +385,7 @@ body {ust
   line-height: 1.2;
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
+  margin-top: 0;
 }
 
 .team-item:not(:last-child) {
@@ -439,8 +442,8 @@ color:var(--title-text-color);
 
 .customers-link{
 display: flex;
-    justify-content: center;
-    align-items: center;
+justify-content: center;
+align-items: center;
 width: 170px;
 height: 90px;
 
@@ -448,9 +451,10 @@ border: 1px solid #AFB1B8;
 box-sizing: border-box;
 border-radius: 4px;
 }
-.customers-item:hover,
-.customers-item:focus{
-  color: var(--accent-color);
+
+.customers-item:hover svg,
+.customers-item:focus svg{
+  fill: var(--accent-color);
 }
 
 .customers-list{
@@ -459,8 +463,8 @@ border-radius: 4px;
   padding: 0;
   list-style: none;
   display: flex;
-    justify-content: center;
-    align-items: center;
+  justify-content: center;
+  align-items: center;
 
 }
 
@@ -468,6 +472,97 @@ border-radius: 4px;
   margin-right: 30px;
 }
 
+.picture {
+ fill: #AFB1B8;
+} 
+
+/* SOCIAL-MEDIA*/
+
+.media-list{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.social:not(:last-child) {
+  margin-right: 10px;
+}
+
+.social:hover svg,
+.social:focus svg{
+  fill: var(--accent-color);
+}
+
+.media-picture {
+ fill: var(--primary-grey-color);
+} 
+
+.social-link{
+display: flex;
+justify-content: center;
+align-items: center;
+width: 44px;
+height: 44px;
+border-radius: 50%;
+}
+
+/* FOOTER MEDIA-LIST*/
+.spysok{
+  display: flex;
+  justify-content: center;
+align-items: center;
+}
+
+.footer-title{
+  margin-top: 0;
+  margin-bottom: 20px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 16px;
+text-align: center;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: var(--primary-white-color);
+}
+
+.footer-media-list{ 
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-social:not(:last-child) {
+  margin-right: 10px;
+
+}
+
+.footer-social:hover svg,
+.footer-social:focus svg{
+  fill: var(--accent-color);
+}
+
+.footer-social-link{
+display: flex;
+justify-content: center;
+align-items: center;
+width: 44px;
+height: 44px;
+border-radius: 50%;
+
+}
+
+.footer-media-picture{
+  fill: var(--primary-white-color);
+
+}
 
 
 /* FOOTER */
