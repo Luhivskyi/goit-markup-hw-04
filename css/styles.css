@@ -264,6 +264,8 @@ body {
 /* VECTOR-LIST*/
 
 .vectors {
+  width: 270px;
+  height: 120px;
   display: flex;
   justify-content: center;
   align-items: center;
